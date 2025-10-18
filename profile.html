@@ -184,6 +184,15 @@
             left: 55%;
         }
 
+         .timeline-item:nth-child(4) .content {
+            left: 0;
+            flex-direction: row;
+        }
+
+        .timeline-item:nth-child(4) .date {
+            left: 55%;
+        }
+
         .timeline-item .content img {
             width: 40px;
             height: 40px;
@@ -444,14 +453,16 @@
             /* Reset positioning for all timeline items */
             .timeline-item:nth-child(1) .content,
             .timeline-item:nth-child(2) .content,
-            .timeline-item:nth-child(3) .content {
+            .timeline-item:nth-child(3) .content,
+            .timeline-item:nth-child(4) .content{
                 left: 0;
                 right: auto;
             }
 
             .timeline-item:nth-child(1) .date,
             .timeline-item:nth-child(2) .date,
-            .timeline-item:nth-child(3) .date {
+            .timeline-item:nth-child(3) .date,
+            .timeline-item:nth-child(4) .date{
                 left: auto;
                 right: auto;
             }
